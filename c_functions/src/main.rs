@@ -1,11 +1,18 @@
+fn main() {
+    single_parameter(5);
+    multi_parameter(3, 2);
+}
 
 // Single parameter function
 
-fn another_function(x: i32) {
+fn single_parameter(x: i32) {
     println!("The value of x is: {x}");
 }
 
-fn main() {
-    another_function(5);
+// Multi Parameter function
+
+fn multi_parameter(x: i32, y: i32) {
+    println!("The value of x is: {x}");
+    println!("The value of y is: {y}");
 }
 
