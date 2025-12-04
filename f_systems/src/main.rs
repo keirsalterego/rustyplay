@@ -1,3 +1,5 @@
+mod mybox;
+
 fn main() {
     let x = 42;
     let y = 42;
